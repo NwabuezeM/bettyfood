@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/Poppins-Regular.ttf');
+}
+
+* {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.5s ease-in-out;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.back {
+    text-decoration: none;
+    font-size: 1.7rem;
+    padding: 1.2rem;
+    color: blue;
+}
+
+.back i {
+    font-size: 1.7rem;
+    margin-right: 1rem;
+}
+
+.back:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 2rem;
+}
+
+.detail {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.content .name {
+    font-weight: 700;
+}
+
+.fa-star, .fa-star-half-alt {
+    color: green;
+}
+
+.content .price {
+    color: #2b2b9e;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.content .buttons {
+    display: flex;
+    justify-content: left;
+    gap: 3rem;
+}
+
+.content .buttons button {
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: #165316;
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: none;
+}
+
+.content .buttons button:first-child {
+    background-color: #ff6347;
+}
+
+.content .buttons button .fa-shopping-cart {
+    color: #ff6347;
+}
+
+.content .description {
+    font-size: 1.2rem;
+    margin-top: 1.4rem;
+}
+
+.similar-dish h3 {
+    font-weight: 700;
+    margin-top: 4rem;
+}
+
+.similar-dish .listDishes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.order span {
+    color: #2b2b9e;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.order .btn {
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: #165316;
+    margin-left: 1rem;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.dish {
+    background-color: #ffffff;
+    padding: 3rem 1rem 1rem 1rem;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.dish img {
+    width: 70%;
+    height: 70%;
+}
+
+.dish:hover {box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);}
+
+ .dish .fa-heart, .dish .fa-eye {
+    position: absolute;
+    top: 1.5rem;
+    background: antiquewhite;
+    color: green;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: none;
+}
+
+ .dish .fa-heart {
+    right: 1.5rem;
+}
+
+.dish .fa-eye {
+    left: 1.5rem;
+}
+
+.dish:hover .fa-heart, .dish:hover .fa-eye {
+    display: block;
+}
+
+.dish h3 {
+    font-weight: 700;
+    text-align: center;
+}
+
+.dish h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+
+.dish .description {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+

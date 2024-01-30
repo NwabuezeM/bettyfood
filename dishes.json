@@ -1,0 +1,124 @@
+
+[
+    {
+        "id": 1,
+        "image": "images/chicken stew.jpg",
+        "alt text": "delicious chicken stew",
+        "name": "Delicious Chicken Stew",
+        "description": "Taste the comfort and contentment of our soft chicken stew, made with a rich blend of spices. It is a wonderful, adaptable dish that can be enjoyed for any kind of meal.",
+        "rating": [
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star-half-alt'></i>"
+        ],
+        "price": 2500
+    },
+    {
+        "id": 2,
+        "image": "images/Egusi with pounded yam.jpg",
+        "alt text": "egusi with pounded yam",
+        "name": "Pounded Yam and Egusi Soup Recipe",
+        "description": "Indulge in the rich flavors of Nigeria with our authentic Pounded Yam and Egusi Soup Recipe. Experience the soulful essence of West African cuisine with every bite.",
+        "rating": [
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star-half-alt'></i>"
+        ],
+        "price": 1800
+    },
+    {
+        "id": 3,
+        "image": "images/fried rice recipe with baked chicken.jpg",
+        "alt text": "fried rice recipe with baked chicken",
+        "name": "Fried Rice Recipe With Baked Chicken",
+        "description": "Savor culinary pleasure with our Fried Rice Recipe With Baked Chicken, a meal that will wow and delight with every bite. Perfect for family gatherings or special events, it combines fluffy rice with delicious baked chicken for a flavorful combination that is unmatched",
+        "rating": [
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>"
+        ],
+        "price": 2400
+    },
+    {
+        "id": 4,
+        "image": "images/fried rice recipe with baked chicken.jpg",
+        "alt text": "fried rice recipe with baked chicken",
+        "name": "Fried Rice Recipe With Baked Chicken",
+        "description": "Savor culinary pleasure with our Fried Rice Recipe With Baked Chicken, a meal that will wow and delight with every bite. Perfect for family gatherings or special events, it combines fluffy rice with delicious baked chicken for a flavorful combination that is unmatched",
+        "rating": [
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>"
+        ],
+        "price": 2400
+    },
+    {
+        "id": 5,
+        "image": "images/fried rice recipe with baked chicken.jpg",
+        "alt text": "fried rice recipe with baked chicken",
+        "name": "Fried Rice Recipe With Baked Chicken",
+        "description": "Savor culinary pleasure with our Fried Rice Recipe With Baked Chicken, a meal that will wow and delight with every bite. Perfect for family gatherings or special events, it combines fluffy rice with delicious baked chicken for a flavorful combination that is unmatched",
+        "rating": [
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>"
+        ],
+        "price": 2400
+    },
+    {
+        "id": 6,
+        "image": "images/fried rice recipe with baked chicken.jpg",
+        "alt text": "fried rice recipe with baked chicken",
+        "name": "Fried Rice Recipe With Baked Chicken",
+        "description": "Savor culinary pleasure with our Fried Rice Recipe With Baked Chicken, a meal that will wow and delight with every bite. Perfect for family gatherings or special events, it combines fluffy rice with delicious baked chicken for a flavorful combination that is unmatched",
+        "rating": [
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>"
+        ],
+        "price": 2400
+    },
+    {
+        "id": 7,
+        "image": "images/fried rice recipe with baked chicken.jpg",
+        "alt text": "fried rice recipe with baked chicken",
+        "name": "Fried Rice Recipe With Baked Chicken",
+        "description": "Savor culinary pleasure with our Fried Rice Recipe With Baked Chicken, a meal that will wow and delight with every bite. Perfect for family gatherings or special events, it combines fluffy rice with delicious baked chicken for a flavorful combination that is unmatched",
+        "rating": [
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>"
+        ],
+        "price": 2400
+    },
+    {
+        "id": 8,
+        "image": "images/fried rice recipe with baked chicken.jpg",
+        "alt text": "fried rice recipe with baked chicken",
+        "name": "Fried Rice Recipe With Baked Chicken",
+        "description": "Savor culinary pleasure with our Fried Rice Recipe With Baked Chicken, a meal that will wow and delight with every bite. Perfect for family gatherings or special events, it combines fluffy rice with delicious baked chicken for a flavorful combination that is unmatched",
+        "rating": [
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>",
+            "<i class='fas fa-star'></i>"
+        ],
+        "price": 2400
+    }
+]
+

@@ -1,0 +1,390 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/Poppins-Regular.ttf');
+}
+
+* {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.5s ease-in-out;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 100px;
+    z-index: 1000;
+    border-bottom: 1px solid black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+header .logo {
+    width: 25%;
+    height: auto;
+}
+
+.logo img {
+    width: 35%;
+}
+
+header .navbar a {
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+}
+
+header .navbar a:hover {
+    color: #fff;
+    background: #165316;
+}
+
+header .icons i, header icons a {
+    margin-left: 0.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    background: #eee;
+    color: black;
+    cursor: pointer;
+}
+
+header .icons i:hover {
+    background-color: green;
+    color: #fff;
+}
+
+header .icons .fa-bars {
+    display: none;
+}
+
+.search-form {
+    position: fixed;
+    top: -150rem;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1008;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.show-form {
+   top: 0;
+}
+
+#search-form #search-box {
+    width: 60%;
+    color: gray;
+    font-size: 3rem;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid gray;
+}
+
+#search-form #search-box::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+#search-form label {
+    color: antiquewhite;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+#search-form .fa-times {
+    position: absolute;
+    color: #ff6347;
+    font-size: 2.5rem;
+    cursor: pointer;
+    top: 3rem;
+    right: 4rem;
+}
+
+#search-form label:hover, #search-form .fa-times:hover {
+    color: green;
+}
+
+section {
+    margin-top: 2rem;
+}
+
+section:nth-child(even) {
+    background-color: #eee;
+}
+
+#home {
+    margin-top: 10rem;
+}
+
+.home .container h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.home .slide {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .slide h3 {
+    font-size: 3.5rem;
+    color: #2b2b9e;
+}
+
+.home .slide p {
+    font-size: 1.7rem;
+}
+
+.home .slide img {
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+}
+
+.home .slide .btn {
+    font-size: 1.6rem;
+    color: #ffffff;
+    background-color: #165316;
+}
+
+.home .slide .btn:hover {
+    background-color: #ff6347;
+}
+
+.swiper-pagination-bullet-active {
+    background: #ff6347;
+    padding: 0.325rem;
+}
+
+
+.dishes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin: 2rem 8rem;
+}
+
+#dishes h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-top: 2rem;
+}
+
+#dishes h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 4rem 0 2rem 0;
+    font-weight: 700;
+}
+
+#dishes .dish {
+    background-color: #ffffff;
+    padding: 3rem 1rem 1rem 1rem;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+#dishes .dish img {
+    width: 70%;
+    height: 70%;
+}
+
+#dishes .dish:hover {box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);}
+
+#dishes .dish a {
+    text-decoration: none;
+}
+
+#dishes .dish .fa-heart, #dishes .dish .fa-eye {
+    position: absolute;
+    top: 1.5rem;
+    background: antiquewhite;
+    color: green;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: none;
+}
+
+#dishes .dish .fa-heart {
+    right: 1.5rem;
+}
+
+#dishes .dish .fa-eye {
+    left: 1.5rem;
+}
+
+#dishes .dish:hover .fa-heart, #dishes .dish:hover .fa-eye {
+    display: block;
+}
+
+#dishes .dish h3 {
+    font-weight: 700;
+    text-align: center;
+}
+
+#dishes .dish h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+
+#dishes .dish .description {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#dishes .dish .fa-star, #dishes .dish .fa-star-half-alt {
+    color: green;
+}
+
+#dishes .dish span {
+    color: #2b2b9e;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+#dishes .dish .btn {
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: #165316;
+    margin-left: 1rem;
+}
+
+@media only screen and (max-width: 991px) {
+    header {
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+
+    header .navbar a {
+        font-size: 1rem;
+    }
+
+    header .logo {
+        width: 35%;
+    }
+
+    .logo img {
+        width: 40%;
+    }
+
+    .home .container h1, #dishes h2 {
+        font-size: 2rem;
+    }
+
+    .home .slide {
+        gap: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    .home .slide h3 {
+        font-size: 2.2rem;
+    }
+
+    .home .slide img{
+        width: 70%;
+        height: 70%;
+    }
+
+    .home .slide p {
+        font-size: 1.2rem;
+    }
+    
+    .home .slide .btn {
+        padding: 0.6rem;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        height: 80px;
+    }
+
+    header .icons .fa-bars {
+        display: inline-block;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+        display: block;
+        padding: 1rem;
+    }
+
+    .hide-menu {
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .show-menu {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    header .navbar a {
+        display: block;
+        padding: 1rem;
+        margin: 0.5rem;
+        background: #eee;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .home .container h1 {
+        font-size: 1.4rem;
+    }
+
+    .home .slide h3 {
+        font-size: 1.9rem;
+    }
+
+    .home .slide p {
+        font-size: 1rem;
+    }
+    
+    .home .slide .btn {
+        margin-bottom: 3rem;
+    }
+
+
+}
