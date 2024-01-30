@@ -60,7 +60,7 @@ header .navbar a:hover {
     background: #165316;
 }
 
-header .icons i, header icons a {
+header .icons i, header .icons a {
     margin-left: 0.5rem;
     height: 2.5rem;
     width: 2.5rem;
@@ -191,8 +191,8 @@ section:nth-child(even) {
 .dishes-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
-    margin: 2rem 8rem;
+    gap: 1.8rem;
+    margin: 2rem;
 }
 
 #dishes h2 {
@@ -294,44 +294,26 @@ section:nth-child(even) {
 
     header .navbar a {
         font-size: 1rem;
+        padding: 0.5rem;
     }
 
-    header .logo {
-        width: 35%;
+    header .icons i, header .icons a {
+        margin-left: 0.5rem;
+        height: 1.5rem;
+        width: 1.5rem;
+        line-height: 1.5rem;
+        font-size: 1rem;
     }
 
-    .logo img {
-        width: 40%;
-    }
-
-    .home .container h1, #dishes h2 {
-        font-size: 2rem;
-    }
-
-    .home .slide {
-        gap: 1rem;
-        flex-direction: column-reverse;
+    .home .container h1 {
+        font-size: 1.7rem;
     }
 
     .home .slide h3 {
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
 
-    .home .slide img{
-        width: 70%;
-        height: 70%;
     }
-
-    .home .slide p {
-        font-size: 1.2rem;
-    }
-    
-    .home .slide .btn {
-        padding: 0.6rem;
-        font-size: 1.2rem;
-        margin-bottom: 2rem;
-    }
-}
 
 @media only screen and (max-width: 768px) {
     header {
@@ -370,21 +352,81 @@ section:nth-child(even) {
 }
 
 @media only screen and (max-width: 500px) {
+    header .logo {
+        width: 45%;
+        margin-left: -2rem;
+    }
+
+    .logo img {
+        width: 50%;
+    }
+
+    #search-form #search-box {
+        width: 100%;
+    }
+
+    #search-form label {
+        font-size: 2rem;
+        margin-right: 1rem;
+    }
+
+    #search-box::placeholder {
+        font-size: 2rem;
+    }
+
+    #home {
+        margin-top: 7rem;
+    }
+    
     .home .container h1 {
         font-size: 1.4rem;
+    }
+
+    .home .slide {
+        margin-top: 0;
+    } 
+
+    .home .slide .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .home .slide h3 {
         font-size: 1.9rem;
     }
 
-    .home .slide p {
+    .home .slide p, #dishes .dish .description {
         font-size: 1rem;
     }
     
     .home .slide .btn {
         margin-bottom: 3rem;
+        font-size: 1rem;
     }
 
+    #dishes h2 {
+        font-size: 1.4rem;
+    }
 
+    #dishes .dish h3 {
+        font-size: 1.3rem;
+    }
+
+    #dishes h1 {
+        font-size: 1.5rem;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .dishes-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    #dishes .dish .btn {
+        font-size: 1rem;
+        padding: 0.25rem;
+    }
 }
+

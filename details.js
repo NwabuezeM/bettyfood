@@ -18,6 +18,7 @@ function showDetail() {
   if (!thisDish) {
     window.location.href = '/';
   }
+  
 
   // Set page title to product name
   document.title = thisDish.name;

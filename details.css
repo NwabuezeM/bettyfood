@@ -11,6 +11,10 @@
     text-decoration: none;
 }
 
+html {
+    font-size: 80%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -20,13 +24,13 @@ body {
 
 .back {
     text-decoration: none;
-    font-size: 1.7rem;
+    font-size: 2.5rem;
     padding: 1.2rem;
     color: blue;
 }
 
 .back i {
-    font-size: 1.7rem;
+    font-size: 2.5rem;
     margin-right: 1rem;
 }
 
@@ -42,20 +46,28 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    height: 80%;
 }
 
 .content .name {
     font-weight: 700;
+    font-size: 3rem;
 }
 
 .fa-star, .fa-star-half-alt {
     color: green;
+    font-size: 1.8rem;
 }
 
 .content .price {
     color: #2b2b9e;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     margin: 1rem 0;
 }
 
@@ -66,7 +78,7 @@ body {
 }
 
 .content .buttons button {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     color: #ffffff;
     background-color: #165316;
     border-radius: 5px;
@@ -83,7 +95,7 @@ body {
 }
 
 .content .description {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     margin-top: 1.4rem;
 }
 
@@ -101,11 +113,11 @@ body {
 .order span {
     color: #2b2b9e;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 
 .order .btn {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     color: #ffffff;
     background-color: #165316;
     margin-left: 1rem;
@@ -122,6 +134,10 @@ body {
     overflow: hidden;
 }
 
+.dish a {
+    text-decoration: none;
+}
+
 .dish img {
     width: 70%;
     height: 70%;
@@ -134,7 +150,7 @@ body {
     top: 1.5rem;
     background: antiquewhite;
     color: green;
-    font-size: 1.4rem;
+    font-size: 2rem;
     padding: 0.5rem;
     border-radius: 50%;
     display: none;
@@ -155,6 +171,7 @@ body {
 .dish h3 {
     font-weight: 700;
     text-align: center;
+    font-size: 2.5rem;
 }
 
 .dish h3:hover {
@@ -165,7 +182,70 @@ body {
 
 .dish .description {
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.9rem;
     font-weight: 500;
 }
 
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 50%;}
+
+    .order span {
+        font-size: 2.5rem;
+    } 
+
+    .dish .fa-heart, .dish .fa-eye {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    html {
+        font-size: 45%;
+    }
+
+    .detail {
+        gap: 0;
+        padding: 1rem;
+    }
+    
+    .content .description {
+        margin-top: 1.4rem;
+    }
+
+    .similar-dish .listDishes {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .similar-dishes-title h3 {
+        font-size: 2rem;
+    }
+
+    .dish {
+        margin: 0;
+        padding: 1rem 0;
+    }
+    
+}
+
+@media only screen and (max-width: 300px) {
+    .detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 200px) {html {
+    font-size: 35%;
+}
+
+    .similar-dish .listDishes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
