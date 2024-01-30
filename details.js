@@ -18,10 +18,8 @@ function showDetail() {
   if (!thisDish) {
     window.location.href = '/';
   }
-
-  // Set page URL to product name
-  let dishName = thisDish.name.replace(/\s+/g, '-').toLowerCase();
-  let url = `/details.html?name=${dishName}`;
+  // Set page URL to dish ID
+  let url = `/details.html?id=${thisDish.id}`;
   window.history.replaceState({}, "", url);
 
   // Set page title to product name
