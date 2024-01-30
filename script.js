@@ -9,6 +9,15 @@ hamburger.addEventListener("click", () =>{
   navBar.classList.toggle('show-menu');
 })
 
+document.addEventListener('click', (e) => {
+  if (e.target !== hamburger && e.target !== navBar) {
+    navBar.classList.remove('show-menu');
+    navBar.classList.add('hide-menu');
+    hamburger.classList.remove('fa-times');
+    hamburger.classList.add('fa-bars');
+  }
+});
+
 searchBar.addEventListener("click", () => {
     searchForm.classList.toggle("show-form")
 });
